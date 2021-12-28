@@ -2,12 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587644ab-07a3-48a3-8d1b-2a19f5b30979" name="Changes" comment="home-page">
-      <change beforePath="$PROJECT_DIR$/src/pages/home-pages/home-page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home-pages/home-page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shop-games.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CartBlock/CartBlock..module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CartBlock/CartBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBuy/GameBuy.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBuy/GameBuy.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameBuy/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameCover/GameCover.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameCover/GameCover.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameCover/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameGenre/GameGenre.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameGenre/GameGenre.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameGenre/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameItem/GameItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameItem/GameItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GameItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home-pages/home-page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,6 +59,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="683c59df-f12e-4228-bffb-133934e7fab9" />
+        <option name="url" value="https://github.com/dikiyrot/shop-game.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectId" id="22p0ZVzECK7JNrC6J1Kh6Yb4b3Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,13 +78,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\work\react\shop-games\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="actions.on.save" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\react\shop-games\src\components" />
+      <recent name="E:\work\react\shop-games\src\components\CartBlock" />
+      <recent name="E:\work\react\shop-games\src\components\Header" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\react\shop-games\src\components\Header" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -70,7 +129,10 @@
       <workItem from="1640519277937" duration="1156000" />
       <workItem from="1640520521554" duration="845000" />
       <workItem from="1640522699912" duration="520000" />
-      <workItem from="1640523226357" duration="3483000" />
+      <workItem from="1640523226357" duration="4885000" />
+      <workItem from="1640528552815" duration="82000" />
+      <workItem from="1640528767286" duration="236000" />
+      <workItem from="1640529309531" duration="11053000" />
     </task>
     <task id="LOCAL-00001" summary="home-page">
       <created>1640526554069</created>
@@ -79,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640526554070</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="home-page">
+      <created>1640526761296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640526761296</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +164,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home-page" />
