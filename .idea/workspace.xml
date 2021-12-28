@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587644ab-07a3-48a3-8d1b-2a19f5b30979" name="Changes" comment="home-page">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shop-games.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartBlock/CartBlock..module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartBlock/CartBlock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBuy/GameBuy.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBuy/GameBuy.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameBuy/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameCover/GameCover.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameCover/GameCover.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameCover/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameGenre/GameGenre.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameGenre/GameGenre.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameGenre/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameItem/GameItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameItem/GameItem.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameItem/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/index.js" afterDir="false" />
+    <list default="true" id="587644ab-07a3-48a3-8d1b-2a19f5b30979" name="Changes" comment="home-page end">
+      <change afterPath="$PROJECT_DIR$/src/components/CartItem/CartItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CartItem/CartItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CartItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CartMenu/CartMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CartMenu/CartMenu.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CartMenu/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ItemsInCart/ItemsInCart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ItemsInCart/ItemsInCart.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ItemsInCart/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home-pages/home-page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CartBlock/CartBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CartBlock/CartBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameBuy/GameBuy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBuy/GameBuy.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +120,7 @@
       <workItem from="1640523226357" duration="4885000" />
       <workItem from="1640528552815" duration="82000" />
       <workItem from="1640528767286" duration="236000" />
-      <workItem from="1640529309531" duration="11053000" />
+      <workItem from="1640529309531" duration="17564000" />
     </task>
     <task id="LOCAL-00001" summary="home-page">
       <created>1640526554069</created>
@@ -148,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640526761296</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="home-page end">
+      <created>1640694431417</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640694431417</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +163,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home-page" />
-    <option name="LAST_COMMIT_MESSAGE" value="home-page" />
+    <MESSAGE value="home-page end" />
+    <option name="LAST_COMMIT_MESSAGE" value="home-page end" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
