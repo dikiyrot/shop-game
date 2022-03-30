@@ -4,6 +4,8 @@ import { HomePage } from "./pages/HomePage";
 import Header from "./components/Header/Header";
 import { Provider } from "react-redux";
 import { store } from "./redux";
+import { GamePage } from "./pages/GamePage";
+import { OrderPage } from "./pages/OrderPage";
 
 const App = () => {
   return (
@@ -12,7 +14,9 @@ const App = () => {
         <div className="App">
           <Header />
           <Routes>
-            <Route index element={<HomePage />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/app/:title" element={<GamePage />} />
+            <Route path="/order" element={<OrderPage />} />
           </Routes>
         </div>
       </BrowserRouter>

@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587644ab-07a3-48a3-8d1b-2a19f5b30979" name="Changes" comment="home-page end">
-      <change afterPath="$PROJECT_DIR$/src/components/CartItem/CartItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartItem/CartItem.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartItem/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartMenu/CartMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartMenu/CartMenu.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartMenu/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemsInCart/ItemsInCart.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemsInCart/ItemsInCart.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemsInCart/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
+    <list default="true" id="587644ab-07a3-48a3-8d1b-2a19f5b30979" name="Changes" comment="redux, carReduce, component cartMenu">
+      <change afterPath="$PROJECT_DIR$/src/components/OrderItem/OrderItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OrderItem/OrderItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OrderItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/GamePage/GamePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/GamePage/GamePage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/GamePage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/OrderPage/OrderPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/OrderPage/OrderPage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/OrderPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/games/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CartBlock/CartBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CartBlock/CartBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GameBuy/GameBuy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBuy/GameBuy.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameItem/GameItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameItem/GameItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nepomniashei/shortne-project-youtube-version-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -79,6 +77,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\work\react\shop-games\src\components" />
+      <recent name="E:\work\react\shop-games\src\pages" />
+      <recent name="E:\work\react\shop-games\src\redux" />
       <recent name="E:\work\react\shop-games\src\components\CartBlock" />
       <recent name="E:\work\react\shop-games\src\components\Header" />
     </key>
@@ -120,7 +120,11 @@
       <workItem from="1640523226357" duration="4885000" />
       <workItem from="1640528552815" duration="82000" />
       <workItem from="1640528767286" duration="236000" />
-      <workItem from="1640529309531" duration="17564000" />
+      <workItem from="1640529309531" duration="18262000" />
+      <workItem from="1640711572291" duration="7293000" />
+      <workItem from="1641392452546" duration="27000" />
+      <workItem from="1648118949320" duration="54000" />
+      <workItem from="1648119025597" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="home-page">
       <created>1640526554069</created>
@@ -143,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640694431417</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="redux, carReduce, component cartMenu">
+      <created>1640700275938</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640700275938</updated>
+    </task>
+    <task id="LOCAL-00005" summary="redux, carReduce, component cartMenu">
+      <created>1640700288638</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640700288638</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +182,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home-page" />
     <MESSAGE value="home-page end" />
-    <option name="LAST_COMMIT_MESSAGE" value="home-page end" />
+    <MESSAGE value="redux, carReduce, component cartMenu" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux, carReduce, component cartMenu" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

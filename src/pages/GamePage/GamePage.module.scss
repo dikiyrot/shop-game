@@ -1,0 +1,29 @@
+.GamePage {
+
+}
+
+.title {
+
+}
+
+.content {
+  display: flex;
+}
+
+.leftSide {
+  flex: 0 0 70%;
+}
+
+.rightSide {
+  flex: 1 1 30%;
+}
+
+.secondaryText {
+  color: rgb(80, 82, 84);
+}
+
+.buyGame {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
