@@ -7,7 +7,7 @@ const Header = () => {
 	return (
 		<div className={styles.header}>
 			<div className={styles.container}>
-				<Link to="/" className={styles.header__title}>
+				<Link to="/shop-game/git " className={styles.header__title}>
 					Game store
 				</Link>
 				<div className={styles.header__cartBtn}>
