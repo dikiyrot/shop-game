@@ -8,7 +8,7 @@ const Header = () => {
 		<div className={styles.header}>
 			<div className={styles.container}>
 				<Link to="/shop-game" className={styles.header__title}>
-					Game store
+					Good-Games
 				</Link>
 				<div className={styles.header__cartBtn}>
 					<CartBlock />
