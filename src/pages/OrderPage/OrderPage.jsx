@@ -8,7 +8,7 @@ export const OrderPage = () => {
   const items = useSelector((state) => state.cart.itemsInCart);
 
   if (!items.length) {
-    return <h1>Ваша корзина пуста!</h1>;
+    return <h1>Your cart is empty!</h1>;
   }
 
   return (
@@ -22,8 +22,8 @@ export const OrderPage = () => {
         <div className={styles.totalPrice}>
           <span>
             {items.length}{" "}
-            {enumerate(items.length, ["товар", "товара", "товаров"])} на сумму{" "}
-            {calcTotalPrice(items)} руб.
+             goods on sum{" "}
+            {calcTotalPrice(items)} $
           </span>
         </div>
       </div>

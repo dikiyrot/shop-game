@@ -20,7 +20,7 @@ export const GameBuy = ({ game }) => {
 
   return (
     <div className={styles.GameBuy}>
-      <span className={styles.price}>{game.price} rub.</span>
+      <span className={styles.price}>{game.price} $</span>
       <Button
         type={isItemInCart ? "secondary" : "primary"}
         onClick={handleClick}
