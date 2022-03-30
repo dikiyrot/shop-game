@@ -34,7 +34,7 @@ const GAMES = [
       "Alex Chen from all hides its 'curse' - the supernatural ability to read the strong emotions of others and influence them.But when her brother dies - allegedly as a result of an accident, - Alex uses it to learn the truth.",
   },
   {
-    image: "/shop-game/shop-game/game-covers/gta_v.jpeg",
+    image: "/shop-game/game-covers/gta_v.jpeg",
     title: "Grand Theft Auto V",
     genres: ["Open world", "Action"],
     video: "https://www.youtube.com/embed/QkkoHAzjnUs",

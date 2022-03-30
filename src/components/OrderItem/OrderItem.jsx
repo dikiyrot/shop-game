@@ -21,7 +21,7 @@ export const OrderItem = ({ game }) => {
         <span>{game.title}</span>
       </div>
       <div className={styles.price}>
-        <span>{game.price} rub.</span>
+        <span>{game.price} $</span>
         <AiOutlineCloseCircle
           size={25}
           className={styles.deleteIcon}

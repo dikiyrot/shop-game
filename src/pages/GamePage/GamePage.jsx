@@ -28,7 +28,7 @@ export const GamePage = () => {
           <GameCover image={game.image} />
           <p>{game.description}</p>
           <p className={styles.secondaryText}>
-            Популярные метки для этого продукта:
+            Popular labels for this product:
           </p>
           {game.genres.map((genre) => (
             <GameGenre genre={genre} key={genre} />
