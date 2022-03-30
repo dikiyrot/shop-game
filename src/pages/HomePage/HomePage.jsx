@@ -31,7 +31,7 @@ const GAMES = [
     price: 45,
     id: 3,
     description:
-      "Alex Chen from all hides its "curse" - the supernatural ability to read the strong emotions of others and influence them.But when her brother dies - allegedly as a result of an accident, - Alex uses it to learn the truth.",
+      "Alex Chen from all hides its 'curse' - the supernatural ability to read the strong emotions of others and influence them.But when her brother dies - allegedly as a result of an accident, - Alex uses it to learn the truth.",
   },
   {
     image: "/shop-game/shop-game/game-covers/gta_v.jpeg",
